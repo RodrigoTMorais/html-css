@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    /* html id = # css
+       html class = . css */
+
+    background-color: #DAFDBA;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        color: #45C4B0;
+    }
+
+    h2{
+        color: #13678A;
+    }
+
+    .html{
+        color:#012030;
+
+    }
+
+    .destaque{
+        background-color: #fffc4679;
+    }

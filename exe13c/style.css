@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+h1{
+    color: cadetblue;
+}
+h2{
+    color: darkblue;
+}
+p{
+    text-align: justify;
+}
