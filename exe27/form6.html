@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+        <p>
+            <label for="Iest">Estado</label>
+            <select name="Riest" id="Iest">
+                <optgroup label="região 1">
+                    <option value="Ce">ceara</option>
+                    <option value="Sp">são paulo</option>
+                    <option value="Pb">paraiba</option>
+                    <option value="Mg">Minas gerais</option>
+                </optgroup>
+
+                <optgroup label="região 2">
+                    <option value="Rj">rio de janeiro</option>
+                    <option value="Rg">rio grande do sul</option>
+                    <option value="Mt">mato grosso</option>
+
+                </optgroup>
+
+            </select>
+        </p>
+        <p>
+            <label for="Iprof">profissão</label>
+            <input type="text" id="Iest" name="Rprof" list="listprof">
+            <datalist id="listprof">
+                <option>professor</option>
+                <option>mecanico</option>
+                <option>engenheiro</option>
+                <option>comerciante</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="Imen">menssagem</label><br>
+            <textarea name="Rmen" id="Imen" cols="30" rows="10"></textarea>
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="reiniciar">
+    </form>
+    
+</body>
+</html>
